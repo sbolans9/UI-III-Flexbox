@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	display: flex;
+	
 }
 ol, ul {
 	list-style: none;
@@ -49,12 +51,12 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +66,181 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body{
+	display:flex;
+	flex-direction: column;
+	align-content: center;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.logo{
+	float:right;
+}
+.headerLinks a {
+	margin: 0% 3%;
+}
+.headerLinks{
+	padding-top:1%;
+}
+.imgHeader{
+	float:right;
+	margin: 5% 0%;
+}
+.innovation{
+	flex-direction: row;
+	padding-bottom:3%;
+	border-bottom: 2px solid black;
+}
+ .onDemand{
+	padding-left: 0%;
+	padding-top: 10%;
+	font-size:75px;
+	text-align: center;
+}
+.featuresAbout{
+	padding-bottom: 3%;
+}
+.featuresLeft{
+	width:45%;
+	float:left;
+	text-align: center;
+	margin-left:5%;
+	margin-top: 3%;
+}
+.aboutRight{
+	width:45%;
+	float:left;
+	text-align: center;
+	margin-left:5%;
+	margin-top: 3%;
+}
+.bottomPara{
+	padding-top:3%;
+	padding-bottom: 3%;
+	border-bottom: 2px solid black;
+}
+.services{
+	width:30%;
+	float:left;
+	margin-left:3%;
+	text-align: center;
+}
+.product{
+	width:30%;
+	float:left;
+	margin-left:3%;
+	text-align: center;
+}
+.vision{
+	width:30%;
+	float:left;
+	margin-left:3%;
+	text-align: center;
+}
+footer{
+	padding-top:3%;
+}
+.copyright{
+	padding-top:3%;
+	text-align: center;
+	padding-bottom: 3%;
+}
+.service{
+	text-align: left;
+	padding: 3% 0%;
+	font-size: 20px;
+	border-bottom: 2px solid black;
+}
+.topBody{
+	display:flex;
+	width:100%;
+	padding-top:3%;
+	padding-bottom: 5%;
+}
+.digitalDesign{
+	padding:3%;
+	border: 2px solid black;
+	background-color:lightgray;
+	float:left;
+	width: 48%;
+	padding-bottom: 10%;
+	font-size: 20px;
+}
+.UX{
+	padding:3%;
+	border: 2px solid black;
+	background-color:lightgray;
+	float:left;
+	width: 48%;
+	margin-left: 4%;
+	font-size: 20px;
+}
+.middleBody{
+	display:flex;
+	width:100%;
+	padding-bottom: 5%;
+}
+.digitalMarketing{
+	padding:3%;
+	border: 2px solid black;
+	background-color:lightgray;
+	float:left;
+	width: 48%;
+	padding-bottom: 10%;
+	font-size: 20px;
+}
+.webDevelopment{
+	padding:3%;
+	border: 2px solid black;
+	background-color:lightgray;
+	float:left;
+	width: 48%;
+	margin-left: 4%;
+	font-size: 20px;
+}
+.bottomBody{
+	display:flex;
+	width:100%;
+	padding-bottom: 5%;
+	border-bottom: 2px solid black;
+}
+.ios{
+	padding:3%;
+	border: 2px solid black;
+	background-color:lightgray;
+	float:left;
+	width: 48%;
+	padding-bottom: 10%;
+	font-size: 20px;
+}
+.andriod{
+	padding:3%;
+	border: 2px solid black;
+	background-color:lightgray;
+	float:left;
+	width: 48%;
+	margin-left: 4%;
+	font-size: 20px;
+}
+.bottomPage{
+	width:40%;
+	float:left;
+}
+.bottomPage h1{
+	font-size: 30px;
+}
+.bottomPage p{
+	font-size: 20px;
+	padding-bottom: 5%;
+}
+.bottomPage li{
+	font-size: 20px;
+}
+.services-info-img{
+	float:left;
+	width:45%;
+	height:85%;
+	margin-left: 15%;
+}
+
+
